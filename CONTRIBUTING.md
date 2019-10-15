@@ -85,6 +85,11 @@ tools:
            $ pip install autopep8
            $ autopep8 path/to/pep8.py
 
+-  mypy static type checking:
+
+           $ pip install mypy>=0.730 lxml
+           $ mypy skll tests examples
+
 
 After submitting a pull request, it is recommended to add at least 2-3 reviewers to 
 review it. See [Requesting a pull request review](https://help.github.com/en/articles/requesting-a-pull-request-review) for more details. 
